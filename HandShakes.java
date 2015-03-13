@@ -7,7 +7,7 @@ public class HandShakes {
 
 	public static void main(String[] args) {
 		Scanner keyboard= new Scanner(System.in);
-		System.out.println("How many guests are invited to the party? ");
+		System.out.println("How many guests are invited to the party? "); // Prompts user
 		int guests= keyboard.nextInt();
 		int totalShakes=0;
 		for (int counts= 1; counts<=guests; counts++){
